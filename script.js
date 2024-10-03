@@ -86,3 +86,7 @@ function withdraw() {
   accno1.value=''
   balance.innerHTML=`Your Current Balance is ${user.BAL}`
 }
+
+function logout(){
+  window.location='./login.html'
+}
