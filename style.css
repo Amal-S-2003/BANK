@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+
+}
+
+:root{
+--dark-blue:#161A30;
+--light-blue:#31304D;
+--dark-grey:#B6BBC4;
+--light-grey:#F0ECE5;
+
+--beaver: #998D7Dff;
+--gray: #767779ff;
+--platinum: #D9DEE5ff;
+--eerie-black: #212424ff;
+--beige: #E1E0C1ff;
+--outer-space: #474E55ff;
+--seasalt: #F5F8F7ff;
+--battleship-gray: #848480ff;
+--silver: #A8A4A1ff;
+}
+
+/* =================LOGIN================== */
+section{
+    background: radial-gradient(#fff ,var(--light-blue) 100%);
+    height: 89vh;
+}
+nav{
+    background-color: var(--light-grey);
+    color: var(--dark-blue);
+}
+input{
+    border: 1px solid var(--light-blue);
+    color: var(--dark-blue);
+    font-weight: bolder;
+}
+input:focus{
+    background-color: var(--light-grey);
+}
+button{
+    color: white;
+    background: var(--dark-blue);
+}
+.card{
+    border-top-left-radius: 250px;
+    border-radius: 80px;
+}
+.card a{
+    /* color: var(--dark-grey); */
+    color: rgb(8, 9, 27);
+    text-decoration: none;
+}
+
